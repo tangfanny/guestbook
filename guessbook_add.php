@@ -33,7 +33,7 @@
 			$url = 'guessbook_show.php';
 			echo "<a href='$url'>进入留言列表</a>";
 		}else{
-			echo "留言成功！！！";
+			echo "留言成功！";
 			$url = 'guessbook_show.php';
 			echo "<a href='$url'>进入留言列表</a>";
 		}
