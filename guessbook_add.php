@@ -29,11 +29,11 @@
 		//把新内容拼接在原来的内容后边
 		$res = file_put_contents('./info.txt',$note.$info_note);
 		if($res==flase){
-			echo "留言失败！!!";
+			echo "留言失败！！";
 			$url = 'guessbook_show.php';
 			echo "<a href='$url'>进入留言列表</a>";
 		}else{
-			echo "留言成功!!！";
+			echo "留言成功！！";
 			$url = 'guessbook_show.php';
 			echo "<a href='$url'>进入留言列表</a>";
 		}
