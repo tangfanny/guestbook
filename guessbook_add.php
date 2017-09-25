@@ -19,6 +19,7 @@
 			$title = trim($_POST['title']);
 			$content = trim($_POST['content']);
 			$time = time();
+			//常量获取当前服务器ip
 			$ip = $_SERVER['SERVER_ADDR'];
 		}
 		//拼接留言信息为字符串
