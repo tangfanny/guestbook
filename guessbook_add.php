@@ -14,6 +14,7 @@
 	<?php
 		//接收提交的留言信息
 		if($_POST['sub']){
+			//去除左右两边的空格
 			$name = trim($_POST['guesser']);
 			$title = trim($_POST['title']);
 			$content = trim($_POST['content']);
