@@ -20,7 +20,7 @@
 			</tr>
 			<tr>
 				<td align="right">标题:</td>
-				<td><input type="text" name="title" style="width: 230px;height: 25px;" value="" placeholder="请输入标题"></td>
+				<td><input type="text" name="title" style="width: 230px;height: 25px;" value="" placeholder="请输入留言标题"></td>
 			</tr>
 			<tr>
 				<td align="right" valign="top">留言内容:</td>
