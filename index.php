@@ -26,7 +26,6 @@
 				<td align="right" valign="top">留言内容:</td>
 				<td><textarea name="content" cols="30" rows="5"></textarea></td>
 			</tr>
-
 			<tr>
 				<td colspan="2" align="center"><input type="submit" value="确认添加" name="sub"> <input type="reset" value="重置"></td>
 			</tr>
