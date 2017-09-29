@@ -24,8 +24,8 @@
 	$info_note = $name."##".$title."##".$content."##".$time."##".$ip."@@";
 	//获取要存入的文件里的原来的内容
 	$note = file_get_contents('./info.txt');
-	$res = file_put_contents('./info.txt',$note.$info_note);
 	//把新内容拼接在原来的内容后边
+	$res = file_put_contents('./info.txt',$note.$info_note);
 		if($res==flase){
 			echo "留言失败！!!";
 			$url = 'guessbook_show.php';
