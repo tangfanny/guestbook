@@ -26,7 +26,7 @@
 		$note = file_get_contents('./info.txt'); //获取要存入的文件里的原来的内容
 		$res = file_put_contents('./info.txt',$note.$info_note); //把新内容拼接在原来的内容后边
 		if($res==flase){
-			echo "留言失败！";
+			echo "留言失败！!!";
 			$url = 'guessbook_show.php';
 			echo "<a href='$url'>进入留言列表</a>";
 		}else{
